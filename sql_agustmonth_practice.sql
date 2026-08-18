@@ -71,6 +71,3 @@ select emp_name,(salary*12) as annual_salary from emp;
 select emp_name,(bonus*12) as annual_bonus from emp;
 #Display employee name and total annual income using salary and bonus
 select emp_name,(salary*12) + (bonus*12) as annual_income_with_bonus from emp;
-#Display employees whose salary plus bonus is greater than 60000.
-select emp_name, (salary + bonus) as salary_bonus_above60000 from emp
-where  (salary + bonus) > 60000 ;
